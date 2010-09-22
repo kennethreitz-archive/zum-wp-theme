@@ -1,0 +1,459 @@
+/*
+THEME NAME: ZumHosting
+THEME URI: http://zumhosting.com
+DESCRIPTION: 
+VERSION: 0.1
+AUTHOR: Kenneth Reitz & Jason Cooke
+AUTHOR URI: http://kennethreitz.com/
+TAGS: Simple, Fast, Rock solid. 
+.
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body { line-height: 1; }
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+.block	{ display: block; }
+.inline	{ display: inline; }
+.clearfix   { display:inline-block; }
+.hide	{ display: none; }
+.fleft 	{ float: left; }
+.fright	{ float: right; }
+.fclear	{ clear: both; }
+.hi 	{ background-color: rgb(255, 255, 204); }
+.sub 	{ vertical-align: sub; }
+.super 	{ vertical-align: super; }
+.middle { vertical-align: middle; }
+.center	{ margin-left: auto; margin-right: auto; text-align: center; }
+.seo {text-indent: -9000px;}
+
+.contain {
+	width: 930px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html {
+	font-family: 'Myriad Web Pro', Helvetica, "MS Trebuchet", sans-serif;
+	background-color: #454545;
+	color: #333;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+div#header {
+	height: 80px;
+	background-color: red;
+	background: #DDD url(img/headerbg.jpg) repeat-x fixed;
+	
+}
+
+#site-title {
+	clear: both;
+	background-image: url(img/header_zum_logo.png);
+	height: 80px;
+	width: 140px;
+	float: left;
+	
+}
+
+#site-tag {
+	background-image: url(img/header_fast_simple.png);
+	margin-left: 15px;
+	height: 80px;
+	width: 220px;
+	float: left;
+}
+
+div#header ul#nav {
+	padding-top: 30px;
+	text-align: right;
+	font-size: 1.1em;
+}
+
+div#header ul#nav a {
+	color: white;
+	text-decoration: none;
+}
+
+div#header ul#nav em a {
+	color: #FCB038;
+	text-decoration: none;
+}
+
+div#header ul#nav a:hover {
+	text-decoration: underline;
+}
+
+
+div#header ul#nav li{
+	display: inline;
+	padding-left: 20px;
+	list-style: none;
+	
+	
+}
+
+
+.marketing-image {
+	height: 535px;
+	width: 940px;
+	background-image: url(img/home_main_image.jpg);
+	text-indent: -9000px;
+}
+
+.plans {
+	margin-top: 1em;
+	width: 630px;
+	
+}
+
+.plan {
+	width: 202px;
+	height: 244px;
+	background-image: url(img/home_plansbg.jpg);
+	border: 2px solid #C6C6C6;
+	margin-right: 3px;	
+}
+
+.plan.popular {
+	background-image: url(img/home_most_popularbg.jpg);
+	
+}
+
+.plan h2 {
+	text-indent: -9000px;
+	height: 55px;
+	width: 198px;
+}
+
+.plan h3 {
+	position: absolute;
+/*	top: -300px;*/
+	margin-top: 8px;
+}
+.plan h3 a{
+	display: block;
+	width: 203px;
+	height: 38px;
+	background-image: url(img/home_button_standardsignup.jpg);
+	text-indent: -9000px;
+}
+
+.plan h3 a:hover{
+	background-image: url(img/home_button_hoversignup.jpg);	
+}
+
+
+.plan ul {
+	margin-top: 0.5em;
+	margin-left: 2em;
+	font-size: 0.85em;
+}
+
+.plan ul li {
+	list-style: none;
+	line-height: 1.7em;
+}
+
+
+.mach1 h2 {
+	background-image: url(img/home_mach1.png);
+}
+
+.mach2 h2 {
+	background-image: url(img/home_mach2.png);
+}
+
+.mach10 h2 {
+	background-image: url(img/home_mach10.png);
+}
+
+
+.pitches {
+	text-indent: -9000px;
+	height: 215px;
+	width: 300px;
+	float: right;
+	background-image: url(img/features.gif);
+
+}
+
+.pitches ul {
+	list-style: none;
+}
+
+
+#meat {
+	margin-top: 4em;
+	font-size: 0.9em;
+	width: 620px;
+/*	text-align: justify;*/
+}
+
+#meat h2 {
+	font-size: 1.55em;
+	margin-bottom: 0.75em;
+	color: #666;	
+	font-weight: bold;
+}
+
+#meat p{
+	color: #535353;
+	line-height: 1.4em;
+}
+
+#meat p a{
+	color: #005C91;
+	text-decoration: none;
+}
+
+#meat p a:hover {
+	color: #47738C;
+}
+
+.updates {
+	margin-top: 3.5em;
+}
+
+.updates h2 {
+	margin-bottom: 2em;
+}
+
+.updates h3 .tagline {
+	margin-left: 0.75em;
+	color: #f69921;
+	font-weight: normal;
+}
+
+.updates h3 {
+	font-weight: bold;
+	margin-top: 2em;
+	font-size: 1.25em;
+}
+
+.updates h3 a {
+	text-decoration: none;
+	color: #333;
+}
+
+.updates h3 a:hover {
+	text-decoration: underline;
+}
+
+.post-date {
+	color: #999;
+	margin-left: 0.6em;
+	line-height: 1.5em;
+	font-size: 1em;
+	display: block-inline;
+}
+
+.update {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+.update h2, .update h3, .update h4, .update h5 {
+	margin-top: 0.9em;
+} 
+
+.update h4 {
+	color: #225a7f;
+	font-size: 1.3em;
+}
+.update h4 a{
+	color: #005E9A;
+	text-decoration: none;
+}
+.update h4 a:hover;{
+	text-decoration: underline;
+}
+
+.update h5 {
+	color: black;
+	font-size: 1.15em;
+}
+.update p {
+	margin: 0.5em 0;
+}
+
+.update ul {
+	margin-top: 0.6em;
+	margin-bottom: 0.8em;
+	margin-left: 0.5em;
+	width: 85%;
+}
+
+.update li {
+	margin-left: 2em;
+	line-height: 1.3em;
+}
+
+
+
+.home #meat {
+	float: left;
+}
+
+.payments {
+	width: 225px;
+	height: 119px;
+	background-image: url(img/paypal.gif);
+	text-indent: -9000px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+#footer {
+	clear: both;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	background-image: url(img/footerbg.jpg);
+	height: 252px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover {
+	color: #FCB038;
+}
+
+#footer .top {
+	height: 60px;
+}
+
+
+#footer ul {
+	margin-right: 3em;
+}
+
+
+#footer ul li  {
+	list-style: none;
+}
+
+#footer-nav {
+	margin-top: 1.5em;
+}
+
+
+
+#plantable {
+	height: 375px;
+	width: 925px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #C1C1C1;
+	padding: 3px;
+	font-size: 0.9em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#plantable th {
+	width: 200px;
+}
+
+#plantable tr {
+/*	height: 2em;*/
+	margin-top: 1em;
+	text-align: middle;
+	vertical-align:middle;
+/*	display: block;*/
+}
+
+td {
+	vertical-align:middle;
+	padding-left: 0.5em;
+}
+
+td a.signup {
+	display: block;
+	width: 203px;
+	height: 38px;
+	background-image: url(img/home_button_standardsignup.jpg);
+	text-indent: -9000px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+td a.signup:hover {
+	background-image: url(img/home_button_hoversignup.jpg);
+}
+
+#servertable {
+	height: 100%;
+	width: 100%;
+	border-style: solid;
+/*	padding: 3px;*/
+	font-size: 0.9em;
+/*	padding-left: 0.5em;*/
+	padding-right: 0.5em;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+
+
+#servertable th {
+	width: 200px;
+}
+
+#servertable tr {
+	height: 1.5em;
+	margin-top: 1em;
+	vertical-align:middle;
+	color: #5A5A5A;
+/*	display: block;*/
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
